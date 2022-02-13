@@ -18,8 +18,6 @@
 #
 # r = session.get('https://python.org/')
 
-#### This program scrapes naukri.com's page and gives our result as a
-#### list of all the job_profiles which are currently present there.
 import math
 import random
 import time
