@@ -119,7 +119,7 @@ soup = BeautifulSoup(html, "html.parser")
 
 capacities = []
 
-# printing top ten job profiles
+# appending the fullness of each of the on campus locations
 for element in driver.find_elements_by_class_name('cir'):
     capacities.append(element.text.replace('%', ''))
 
